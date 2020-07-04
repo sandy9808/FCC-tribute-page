@@ -1,41 +1,45 @@
-#main{
-  background:rgba(128, 128, 128,0.2);
-  
-  border-radius:5px;
+#main {
+  background: rgba(128, 128, 128, 0.2);
+
+  border-radius: 5px;
 }
-#title{
-    text-align: center;
+#title {
+  text-align: center;
 }
-#img-div{
-    // background-color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 16px;
-    margin: 15px;
-    background: white;
-//   padding: 10px;
-//   margin: 0;
+#img-div {
+  // background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  margin: 15px;
+  background: white;
+  //   padding: 10px;
+  //   margin: 0;
 }
-#image{
-    max-width: 100%;
-//   display: block;
-//   height: auto;
-//   margin: 0 auto;
+#image {
+  max-width: 100%;
+  //   display: block;
+  //   height: auto;
+  //   margin: 0 auto;
 }
 // #img-caption{
 //     text-align: center;
 // }
-h2{
+h2 {
+  text-align: center;
+}
+#foot {
+  // margin-top: 5px;
+  // text-align: center;
+
+  display: block;
+  padding-top: 9px;
+
+  @media (min-width: 750px) {
     text-align: center;
-}
-a{
-    text-decoration: none;
-}
-#foot{
-    display: flex;
-    justify-content: center;
+  }
 }
 // #tribute-info{
-  
+
 // }
